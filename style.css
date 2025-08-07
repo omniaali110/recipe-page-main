@@ -110,9 +110,8 @@ tbody tr:last-child {
 
 
 
-/* 
- * Mobile size styles (width: 768px)
- */
+/* Mobile size styles (width: 768px)*/
+
 @media screen and (max-width: 768px) {
     .mainContainer {
         margin: 0;
@@ -140,6 +139,7 @@ tbody tr:last-child {
 
 
 /* Tablets (both portrait and landscape) */
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
     .mainContainer {
         margin: 50px auto;
