@@ -1,0 +1,165 @@
+/*font import*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Young+Serif&display=swap');
+
+
+/* Global styles */
+body{
+    font-family: 'Young Serif' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e6d8ff;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #302d2cff;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #854632ff;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #7b284fff;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5f574e; 
+
+}
+
+/* Main container styles */
+.mainContainer {
+    max-width: 1200px;
+    margin: 100px 400px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    background-image: url('./image-omelette.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+ 
+}
+
+.recipeCard{
+    background-color: #fff5faff;
+    padding: 20px;
+    border-radius: 20px;    
+
+}
+
+ul{
+    list-style-type:disc;
+    margin: 20px ;
+    padding: 0px 10px 0px 10px;
+}
+
+li{
+ color: #5f574eff;
+}
+
+ol{
+    margin: 20px ;
+    padding: 0px 10px 0px 10px;
+}
+
+ol ::marker{
+   color: #854632ff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody tr {
+    border-bottom: 1px solid #e4ded8ff; 
+}
+
+td {
+    padding: 12px 0;
+
+}
+
+.c1 {
+    color: #5f574e; 
+}
+
+.c2 {
+    color: #854632; 
+    font-weight: bold;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+
+
+
+
+/* 
+ * Mobile size styles (width: 768px)
+ */
+@media screen and (max-width: 768px) {
+    .mainContainer {
+        margin: 0;
+        border-radius: 0;
+        padding: 30px;
+        overflow-x: hidden;
+    }
+    .img {
+        height: 200px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p, li, td {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+}
+
+
+/* Tablets (both portrait and landscape) */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .mainContainer {
+        margin: 50px auto;
+        padding: 40px;
+    }
+    .img {
+        height: 250px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+    p, li, td {
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+}
+
